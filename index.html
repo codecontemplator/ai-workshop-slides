@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What are LLMs and How to Customize Them</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section data-markdown="slides/01-title.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/02-ai-not-llms.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/03-what-is-llm.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/04-neural-networks.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/05-transformers-why.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/06-transformers-attention.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/07-transformers-scale.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/08-customization-spectrum.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/09-when-to-use-what.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/10-prompt-engineering.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/11-rag.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/12-tool-use-mcp.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/13-fine-tuning-lora.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/14-post-training.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+            <section data-markdown="slides/15-lab-intro.md" data-separator="^\n---\n" data-separator-vertical="^\n--\n"></section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/markdown/markdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+            transition: 'fade',
+            backgroundTransition: 'fade'
+        });
+    </script>
+</body>
+</html>

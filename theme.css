@@ -1,0 +1,109 @@
+/* AI-inspired dark theme */
+:root {
+    --ai-purple: #a855f7;
+    --ai-blue: #3b82f6;
+    --ai-cyan: #06b6d4;
+    --ai-pink: #ec4899;
+    --ai-dark: #0a0a1a;
+    --ai-surface: #1a1a2e;
+}
+
+.reveal {
+    background: var(--ai-dark);
+    background-image:
+        radial-gradient(ellipse at 20% 50%, rgba(168, 85, 247, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 50%);
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+    background: linear-gradient(135deg, var(--ai-purple), var(--ai-cyan));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.reveal h1 {
+    font-size: 2.4em;
+}
+
+.reveal h2 {
+    font-size: 1.6em;
+}
+
+.reveal p, .reveal li {
+    color: #e2e8f0;
+    font-size: 0.85em;
+    line-height: 1.6;
+}
+
+.reveal strong {
+    color: var(--ai-cyan);
+}
+
+.reveal em {
+    color: var(--ai-pink);
+}
+
+.reveal code {
+    background: var(--ai-surface);
+    border: 1px solid rgba(168, 85, 247, 0.3);
+    border-radius: 4px;
+    padding: 2px 8px;
+    color: var(--ai-cyan);
+}
+
+.reveal table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.75em;
+}
+
+.reveal table th {
+    background: var(--ai-surface);
+    color: var(--ai-purple);
+    padding: 12px 20px;
+    border-bottom: 2px solid var(--ai-purple);
+}
+
+.reveal table td {
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+}
+
+.reveal blockquote {
+    background: var(--ai-surface);
+    border-left: 4px solid var(--ai-purple);
+    padding: 16px 24px;
+    border-radius: 0 8px 8px 0;
+    font-style: normal;
+}
+
+.reveal .subtitle {
+    color: #94a3b8;
+    font-size: 0.7em;
+}
+
+.reveal section {
+    padding: 40px;
+}
+
+/* Slide-specific: spectrum visualization */
+.reveal .spectrum {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.reveal .spectrum-item {
+    background: linear-gradient(90deg, var(--ai-surface), transparent);
+    border-left: 3px solid var(--ai-purple);
+    padding: 8px 16px;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.75em;
+    color: #e2e8f0;
+}
