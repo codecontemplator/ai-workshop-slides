@@ -1,6 +1,6 @@
 ## Neural Networks in One Sentence
 
-> Layers of math that learn patterns from data by adjusting millions (or billions) of numerical weights.
+> Layers of mathematical functions that learn patterns from data by adjusting millions (or billions) of numerical weights.
 
 ### The intuition:
 
