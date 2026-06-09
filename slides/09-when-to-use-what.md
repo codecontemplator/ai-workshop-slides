@@ -3,8 +3,9 @@
 | You need to... | Use |
 |----------------|-----|
 | Control output format | **Prompt engineering** |
-| Add domain knowledge | **RAG** |
+| Reusable task-specific behavior | **Skills** |
 | Connect to external systems | **Tool use / MCP** |
+| Add domain knowledge | **RAG** |
 | Change tone or behavior | **Fine-tuning** |
 | Get better at a narrow task | **Fine-tuning** |
 | Improve instruction following | **Post-training** |
