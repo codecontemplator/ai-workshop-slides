@@ -9,7 +9,9 @@ How raw models become *helpful assistants*.
 
 The difference? Post-training.
 
-### The process:
+--
+
+## The Post-training Process
 
 1. **SFT** - Supervised Fine-Tuning on human-written examples
 2. **RLHF** - Reinforcement Learning from Human Feedback

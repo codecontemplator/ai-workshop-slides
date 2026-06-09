@@ -12,7 +12,9 @@ Give the model access to *your* data without retraining.
 6. **Augment** - inject retrieved text into the prompt
 7. **Generate** - LLM answers using the context
 
-### Why RAG?
+--
+
+## Why RAG?
 
 - Up-to-date information (no retraining needed)
 - Citable sources

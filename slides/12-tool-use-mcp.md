@@ -9,7 +9,9 @@ The LLM decides when to invoke an external tool:
 - Calculator, database query, API call, web search
 - The model outputs a structured tool call, your code executes it
 
-### MCP (Model Context Protocol):
+--
+
+## MCP (Model Context Protocol)
 
 An open protocol for connecting LLMs to tools and data sources.
 

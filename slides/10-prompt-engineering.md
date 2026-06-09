@@ -9,7 +9,9 @@ The simplest customization - shaping behavior through instructions.
 - **Chain-of-thought** - "think step by step"
 - **Output formatting** - "respond in JSON"
 
-### Example:
+--
+
+## Prompt Engineering - Example
 
 ```
 System: You are a senior code reviewer. Be concise.

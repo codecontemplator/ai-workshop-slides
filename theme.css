@@ -26,17 +26,21 @@
 }
 
 .reveal h1 {
-    font-size: 2.4em;
+    font-size: 1.8em;
 }
 
 .reveal h2 {
-    font-size: 1.6em;
+    font-size: 1.3em;
+}
+
+.reveal h3 {
+    font-size: 1.0em;
 }
 
 .reveal p, .reveal li {
     color: #e2e8f0;
-    font-size: 0.85em;
-    line-height: 1.6;
+    font-size: 0.7em;
+    line-height: 1.4;
 }
 
 .reveal strong {
@@ -58,18 +62,18 @@
 .reveal table {
     border-collapse: collapse;
     margin: 0 auto;
-    font-size: 0.75em;
+    font-size: 0.65em;
 }
 
 .reveal table th {
     background: var(--ai-surface);
     color: var(--ai-purple);
-    padding: 12px 20px;
+    padding: 8px 14px;
     border-bottom: 2px solid var(--ai-purple);
 }
 
 .reveal table td {
-    padding: 10px 20px;
+    padding: 6px 14px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     color: #e2e8f0;
 }
@@ -77,9 +81,10 @@
 .reveal blockquote {
     background: var(--ai-surface);
     border-left: 4px solid var(--ai-purple);
-    padding: 16px 24px;
+    padding: 10px 18px;
     border-radius: 0 8px 8px 0;
     font-style: normal;
+    font-size: 0.7em;
 }
 
 .reveal .subtitle {
@@ -88,7 +93,17 @@
 }
 
 .reveal section {
-    padding: 40px;
+    padding: 20px;
+}
+
+/* Code blocks */
+.reveal pre {
+    font-size: 0.65em;
+}
+
+.reveal pre code {
+    max-height: 280px;
+    padding: 12px;
 }
 
 /* Slide-specific: spectrum visualization */

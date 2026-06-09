@@ -7,7 +7,9 @@ Change the model's *behavior* by training on your own data.
 - A 7B model = ~14 GB of weights
 - Updating all weights requires massive GPU memory
 
-### LoRA (Low-Rank Adaptation):
+--
+
+## LoRA (Low-Rank Adaptation)
 
 - Freeze the original weights
 - Add tiny trainable "adapter" layers (~1-5% of parameters)
