@@ -4,13 +4,10 @@ Give the model access to *your* data without retraining.
 
 ### The pipeline:
 
-1. **Chunk** - split documents into pieces
-2. **Embed** - convert chunks to vectors (numbers)
-3. **Store** - save in a vector database
-4. **Query** - embed the user's question
-5. **Retrieve** - find most similar chunks
-6. **Augment** - inject retrieved text into the prompt
-7. **Generate** - LLM answers using the context
+1. **Chunk & Embed** - split documents, convert to vectors
+2. **Store** - save in a vector database
+3. **Query & Retrieve** - embed the question, find most similar chunks
+4. **Augment & Generate** - inject context into prompt, LLM answers
 
 --
 
